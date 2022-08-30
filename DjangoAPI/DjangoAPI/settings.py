@@ -86,15 +86,15 @@ WSGI_APPLICATION = 'DjangoAPI.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'CLIENT': {
-            "host": "mongodb+srv://PabDominik:BzR1nVOCLntq@cluster0.fcoa8mp.mongodb.net/?retryWrites=true&w=majority",
-            "name": "mytestdb",
-            "authMechanism": "SCRAM-SHA-1" #For atlas db connection
-        }
-    }
-}
+#    'default': {
+#        'ENGINE': 'djongo',
+#        'CLIENT': {
+#            "host": "mongodb+srv://XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+#            "name": "mytestdb",
+#            "authMechanism": "SCRAM-SHA-1" #For atlas db connection
+#        }
+#    }
+#}
 
 
 # Password validation
